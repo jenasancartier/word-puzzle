@@ -1,3 +1,37 @@
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+form {
+  margin: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.container {
+  display: block;
+  margin: auto;
+  margin-top: 25%;
+  width: 350px;
+  height: auto;
+  background-color: #cce6ff;
+  border-radius: 25px;
+}
+
 #userInput2 {
   display: none;
+}
+
+#puzzle {
+  padding: 10px;
+}
+
+#solution {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 15px;
 }

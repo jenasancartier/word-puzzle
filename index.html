@@ -8,27 +8,29 @@
     <title>Word Puzzle</title>
   </head>
   <body>
-    <div>
-      <h1>Word Puzzle</h1>
-      <div id="puzzle">
-        <span id="output"></span>
-      </div>
+    <div class="container">
       <div>
-        <form name="word-puzzle" novalidate>
-          <div class="form-group" id="userInput1">
-            <label for="original">First, enter a sentence:</label>
-            <input id="original" class="form-control" type="text" required="required">
-            <button type="submit" class="btn">Submit</button>
-          </div>
-          <div class="form-group" id="userInput2">
-            <label for="guess">Now, have a friend guess the solution:</label>
-            <input id="guess" class="form-control" type="text" required="required">
-            <button class="btn" id="meow">Guess</button>
-          </div>
-        </form>
-      </div>
-      <div id="solution">
-        <span id="confirmation"></span>
+        <h1>Word Puzzle</h1>
+        <div id="puzzle">
+          <span id="output"></span>
+        </div>
+        <div>
+          <form name="word-puzzle" novalidate>
+            <div class="form-group" id="userInput1">
+              <label for="original">First, enter a sentence:</label>
+              <input id="original" class="form-control" type="text" required="required">
+              <button type="submit" class="btn">Submit</button>
+            </div>
+            <div class="form-group" id="userInput2">
+              <label for="guess">Now, have a friend guess the solution:</label>
+              <input id="guess" class="form-control" type="text" required="required">
+              <button class="btn" id="meow">Guess</button>
+            </div>
+          </form>
+        </div>
+        <div id="solution">
+          <span id="confirmation"></span>
+        </div>
       </div>
     </div>
   </body>
