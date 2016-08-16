@@ -20,9 +20,9 @@ $(document).ready(function() {
 
   });
 
-  $("#meow").click(function(event) {
+  $("#guess").click(function(event) {
     var userInput1 = $("input#original").val();
-    var userInput2 = $("input#guess").val();
+    var userInput2 = $("input#solution").val();
 
     if (userInput2===userInput1) {
         $("#confirmation").text("Correct!");

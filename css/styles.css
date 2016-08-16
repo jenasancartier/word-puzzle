@@ -21,17 +21,18 @@ button {
   border-radius: 25px;
 }
 
+.confirmation {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+
 #userInput2 {
   display: none;
 }
 
 #puzzle {
   padding: 10px;
-}
-
-#solution {
-  font-size: 16px;
-  font-weight: bold;
-  padding: 10px;
-  margin-bottom: 15px;
 }
