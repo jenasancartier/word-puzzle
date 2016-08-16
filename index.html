@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Word Puzzle</title>
+  </head>
+  <body>
+    <div>
+      <h1>Word Puzzle</h1>
+      <div id="instructions">
+        <h3>Instruction</h3>
+        <p>First, enter a sentence. Then, have a friend guess the solution to the puzzle.</p>
+      </div>
+      <div id="original">
+      <form>
+        <label for="original">Enter a sentence:</label>
+        <input id="original" class="form-control" type="text" required="required">
+        <button type="submit" class="btn" id="original-submit">Submit</button>
+      </form>
+      </div>
+      <div id="puzzle">
+        <span id="puzzle"></span>
+      </div>
+      <div id="guess">
+        <form>
+          <label for="guess">Enter a solution:</label>
+          <input id="guess" class="form-control" type="text" required="required">
+          <button type="submit" class="btn" id="guess-submit">Submit</button>
+        </form>
+      </div>
+      <div id="solution">
+        <span id="confirmation"></span>
+      </div>
+    </div>
+  </body>
+</html>
